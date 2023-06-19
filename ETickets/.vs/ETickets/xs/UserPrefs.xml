@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B472DD31-8A75-4FBA-8397-0FF119674B1F}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETickets/Properties/launchSettings.json">
+    <Files>
+      <File FileName="ETickets/Models/ErrorViewModel.cs" />
+      <File FileName="ETickets/Properties/launchSettings.json" Line="7" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ETickets" expanded="True">
+            <Node name="ETickets" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ETickets PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
