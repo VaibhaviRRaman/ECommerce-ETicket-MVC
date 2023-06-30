@@ -2,10 +2,14 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ETickets/Properties/launchSettings.json">
+  <MonoDevelop.Ide.ItemProperties.ETickets PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETickets/Models/Actor.cs">
     <Files>
-      <File FileName="ETickets/Models/ErrorViewModel.cs" />
+      <File FileName="ETickets/Models/ErrorViewModel.cs" Line="10" Column="1" />
       <File FileName="ETickets/Properties/launchSettings.json" Line="7" Column="23" />
+      <File FileName="ETickets/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ETickets/Models/Actor.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,9 +17,6 @@
           <Node name="ETickets" expanded="True">
             <Node name="ETickets" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
             </Node>
           </Node>
         </State>
@@ -23,7 +24,5 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ETickets PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

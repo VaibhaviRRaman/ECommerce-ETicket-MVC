@@ -9,7 +9,10 @@ namespace ETickets.Models
 	public class Actor
 	{
 		[Key]
-			public int Id { get; set; }
+
+        //Identifier
+        public int Id { get; set; }
+		
 
 
 			public string ProfilePictureURL { get; set; }
@@ -18,4 +21,4 @@ namespace ETickets.Models
 
 			public string Bio { get; set; }
     }
-	}
+}
