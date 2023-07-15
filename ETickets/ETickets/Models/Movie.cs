@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using ETickets.Data;
 
 namespace ETickets.Models
@@ -17,7 +19,18 @@ namespace ETickets.Models
         public DateTime EndDate { get; set; }
         public MovieCategory MovieCategory { get; set; }
 
+        //Relationship
+        public List<Actor_Movie> Actors_Movies { get; set; }
+        //Cinema
+        public int CinemaId { get; set; }
+        [Required]
+        [ForiegnKey("CinemaId")]
+        public Cinema Cinema { get; set; }
 
+        //Producer
+        public int ProducerId { get; set; }
+        [Required]
+        [ForiegnKey("CinemaId")]
+        public Producer Producer { get; set; }
     }
 }
-
