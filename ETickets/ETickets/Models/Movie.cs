@@ -24,13 +24,11 @@ namespace ETickets.Models
         //Cinema
         public int CinemaId { get; set; }
         [Required]
-        [ForiegnKey("CinemaId")]
         public Cinema Cinema { get; set; }
 
         //Producer
         public int ProducerId { get; set; }
         [Required]
-        [ForiegnKey("CinemaId")]
         public Producer Producer { get; set; }
     }
 }
